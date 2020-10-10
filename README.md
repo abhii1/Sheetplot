@@ -313,7 +313,7 @@ Steps for turn on API
  ```Python
 
  #import libary
- >>> from gsheetplot import GET
+  from plotgraph import GET
 
  #url of the spreadsheet
 connection_url='https://docs.google.com/spreadsheets/d/1077QfadB_V_Nl8-jomsb62RYyrs0_Is-IGlVRl8QF2I/edit?usp=sharing'
@@ -325,7 +325,8 @@ driveouth_json='spreadsheetouth.json'
 >>> dataframeObj=GET.read_sheet_to_dataframe(connection_url,driveouth_json)
 
 #converting to dataframe
-dataframe=dataframeobj.read_spreadsheet()
+
+dataframe=dataframeObj.read_spreadsheet()
 
 
 ```
@@ -335,6 +336,7 @@ Option for user input
 ```python
 
 #tuple for X axis and y axis
+
 X,Y=dataframe.select_axis()
 
 ```
@@ -343,11 +345,11 @@ plot graph with user input
 
 ```python
 #input from user
->>> X,Y=dataframe.select_axis()
+ X,Y=dataframe.select_axis()
 
 #calling plot function
 
-plot=r.plot_chart(g,X,Y,'line',imagename='test')
+plot=dataframeObj.plot_chart(g,X,Y,'line',imagename='test')
 
 
 ```
@@ -356,14 +358,14 @@ you can provide range of data example from (200,500)
 
 ```python
 
-plot=r.plot_chart(g,X,Y,'line',range=(200,500),imagename='test')
+plot=dataframeObj.plot_chart(g,X,Y,'line',range=(200,500),imagename='test')
 
 ```
 imagename is name of image that will saved in system you can make empty also
 
 ```python
 
-plot=r.plot_chart(g,X,Y,'line')
+plot=dataframeObj.plot_chart(g,X,Y,'line')
 
 ```
 
@@ -372,7 +374,8 @@ diffrent kind of plot
 ```python
 
 #plot kde
-plot=r.plot_chart(g,X,Y,'kde')
+
+plot=datframeObj.plot_chart(g,X,Y,'kde')
 
 ```
 
