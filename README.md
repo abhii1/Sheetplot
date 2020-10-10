@@ -23,7 +23,7 @@ To access [Google Sheet](https://developers.google.com/sheets/) one need to [Tur
 
 
 - [X] GitHub : https://github.com/abhii1/Sheetplot
-- [x] PyPi :
+- [x] PyPi :  https://pypi.org/project/gsheet-plots/0.0.0/
 - [x] Documention : https://github.com/abhii1/Sheetplot
 - [x] Download : https://github.com/abhii1/Sheetplot
 
@@ -34,7 +34,7 @@ To access [Google Sheet](https://developers.google.com/sheets/) one need to [Tur
 This package runs under ``Python 3.5+ `` ,use [pip](https://pip.pypa.io/en/stable/)  to install
 
 
-     pip install gsheetplot
+     pip install gsheet-plots==0.0.0
 
  This will install gsheetplot module you need to install [gspread](https://gspread.readthedocs.io/en/latest/)
 
