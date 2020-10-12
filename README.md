@@ -172,6 +172,8 @@ plot=r.plot_chart(g,X,Y,'kde')
 ```
 
 
+<img src="https://user-images.githubusercontent.com/49953175/95748632-e8d8c180-0cb7-11eb-8acc-3de701b6b15e.PNG" >
+
 ## Languages_and_API
 
 
