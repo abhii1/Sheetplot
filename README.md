@@ -114,7 +114,7 @@ connection_url='https://docs.google.com/spreadsheets/d/1077QfadB_V_Nl8-jomsb62RY
 driveouth_json='spreadsheetouth.json'
 
 #creating a object to access member function
->>> dataframeObj=GET.read_sheet_to_dataframe(connection_url,driveouth_json)
+dataframeObj=GET.read_sheet_to_dataframe(connection_url,driveouth_json)
 
 #converting to dataframe
 dataframe=dataframeobj.read_spreadsheet()
@@ -130,6 +130,7 @@ Option for user input
 X,Y=dataframe.select_axis()
 
 ```
+<img src="https://user-images.githubusercontent.com/49953175/95748100-20933980-0cb7-11eb-8a91-dee5e6271957.gif" >
 
 plot graph with user input
 
@@ -143,6 +144,8 @@ plot=r.plot_chart(g,X,Y,'line',imagename='test')
 
 
 ```
+<img src="https://user-images.githubusercontent.com/49953175/95748270-605a2100-0cb7-11eb-94ac-3a3d4aa50bd7.PNG" >
+
 
 you can provide range of data example from (200,500)
 
